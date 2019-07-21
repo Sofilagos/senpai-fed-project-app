@@ -1,0 +1,23 @@
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #000000;
+    color: #fefefe;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .05);
+}
+
+a {
+    
+    color: #fefefe;
+    
+}
+
+a:hover {
+    
+    color: #fefefe;
+    text-decoration-line: none;
+    
+}
