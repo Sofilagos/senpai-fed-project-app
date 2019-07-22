@@ -16,3 +16,15 @@
 
 
 }
+@media all and (max-width: 425px) {
+    .carousel.slide {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width: 425px) {
+    .centrado {
+        font-size: smaller;
+    }
+}

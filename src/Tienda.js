@@ -30,7 +30,7 @@ class Tienda extends React.Component {
               <img src="imagenes/fotolibro.jpg" alt="fotolibro" className="img-thumbnail"></img>
             </div>
             <div className="col-lg-6 col-sm-12">
-              <div className="img-thumbnail">
+              <div className="img-thumbnail detalle">
                 <h4>Fotolibro artesanal</h4><br></br>
                 <p>Formato 21x21 <br></br>
                   20 páginas <br></br>
@@ -48,7 +48,7 @@ class Tienda extends React.Component {
               <img src="imagenes/libretas.jpg" alt="fotolibro" className="img-thumbnail"></img>
             </div>
             <div className="col-lg-6 col-sm-12">
-              <div className="img-thumbnail">
+              <div className="img-thumbnail detalle">
                 <h4>Libretitas cosidas</h4><br></br>
                 <p>Formato 21x21 <br></br>
                   20 páginas <br></br>
@@ -64,7 +64,7 @@ class Tienda extends React.Component {
               <img src="imagenes/album bebe.jpg" alt="fotolibro" className="img-thumbnail"></img>
             </div>
             <div className="col-lg-6 col-sm-12">
-              <div className="img-thumbnail">
+              <div className="img-thumbnail detalle">
                 <h4>Álbum para el bebé</h4><br></br>
                 <p>Formato 21x21 <br></br>
                   20 páginas <br></br>

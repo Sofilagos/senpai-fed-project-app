@@ -6,18 +6,18 @@ class Header extends React.Component {
     return (
 
       <header>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-auto">
-              <a href="prueba header.html"><img src="imagenes/rasymo logo.png" class="img-fluid" alt="rasymo"></img>
-              </a> </div>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-sm-auto">
+              <a href="prueba header.html"><img src="imagenes/rasymo logo.png" className="img-fluid" alt="rasymo"></img>
+              </a></div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-sm-auto">
-              <ul class="list-group list-group-horizontal-sm">
-                <li class="list-group-item"><a href="prueba header.html">Inicio</a></li>
-                <li class="list-group-item"><a href="prueba tienda.html">Tienda</a></li>
-                <li class="list-group-item">Contacto</li>
+          <div className="row justify-content-center">
+            <div className="col-sm-auto">
+              <ul className="list-group list-group-horizontal-sm">
+                <li className="list-group-item menu"><a className="categorias" href="prueba header.html">Inicio</a></li>
+                <li className="list-group-item menu"><a className="categorias" href="prueba tienda.html">Tienda</a></li>
+                <li className="list-group-item menu"><a className="categorias" href="prueba tienda.html">Contacto</a></li>
               </ul>
             </div>
           </div>

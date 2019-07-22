@@ -1,4 +1,4 @@
-.footer {
+.container-fluid.footer {
 
     background-color: #aeaeae;
     color: aliceblue;
@@ -13,4 +13,10 @@
     padding-bottom: 30px;
     padding-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 425px) {
+    .footer {
+        font-size: smaller;
+    }
 }
