@@ -15,7 +15,7 @@ class Inicio extends React.Component {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="imagenes/banner.jpg" className="d-block w-100" alt="banner"></img>
+                                <img onClick={this.props.goToTienda} src="imagenes/banner.jpg" className="d-block w-100" alt="banner"></img>
                             </div>
                             <div className="carousel-item">
                                 <a href="prueba tienda.html"> <img src="imagenes/banner 2.jpg" className="d-block w-100" alt="banner 2"></img></a>

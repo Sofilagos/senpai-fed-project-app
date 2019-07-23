@@ -70,7 +70,9 @@ class App extends React.Component {
         );
       case 1:
       default:
-        return <Inicio />;
+        return <Inicio 
+        goToTienda={this.goToTienda}
+        />;
     }
   }
 
