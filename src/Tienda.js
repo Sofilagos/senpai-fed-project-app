@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.js';
 import './App.css';
 import './Tienda.css';
 
@@ -6,8 +7,8 @@ class Tienda extends React.Component {
   render() {
     return (
 
-      <tienda>
-        <div className="container">
+      <tienda className="General">
+        <div className="container" onClick={this.props.goToForm}>
           <div className="row tienda">
             <div className="col-lg-12 col-sm-12">
               <div className="img-thumbnail">
@@ -25,6 +26,7 @@ class Tienda extends React.Component {
               <div className="img-thumbnail">
                 <h3>CLÁSICOS</h3>
               </div>
+
             </div>
             <div className="col-lg-6 col-sm-12">
               <img src="imagenes/fotolibro.jpg" alt="fotolibro" className="img-thumbnail"></img>
@@ -36,9 +38,9 @@ class Tienda extends React.Component {
                   20 páginas <br></br>
                   Encuadernación térmica<br></br>
                   Caja contenedora</p>
-                <br> </br>
+                <br></br>
                 <p className="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde
-                    entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br>
+                    entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br><br></br>
 
                   Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador
               para garantizar que el diseno esté ok. </p>
@@ -56,7 +58,7 @@ class Tienda extends React.Component {
                   Incluye caja contenedora</p>
                 <br></br>
                 <p className="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde
-              entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br>  Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador para garantizar que el diseno esté ok.
+              entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br><br></br>  Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador para garantizar que el diseno esté ok.
                         </p>
               </div >
             </div >
@@ -70,8 +72,8 @@ class Tienda extends React.Component {
                   20 páginas <br></br>
                   Tapa rígida de cuerina<br></br>
                   Incluye caja contenedora</p>
-                <br> </br>
-                <p className="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br>
+                <br></br>
+                <p className="descripcion"> Nuestro fotolibro artesanal de 21x21 cm cuenta con 20 páginas donde entran aprox. 70/80 fotos. Tapa rígida de cuerina, incluye caja contenedora. <br></br><br></br>
 
                   Las fotos se deben mandar por mail para poder armar el diseño, luego se envía un borrador
             para garantizar  que el diseno esté ok.</p>
@@ -80,6 +82,7 @@ class Tienda extends React.Component {
           </div >
         </div >
       </tienda>
+
     );
   }
 }

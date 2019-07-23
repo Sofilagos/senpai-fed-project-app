@@ -1,0 +1,20 @@
+.img-thumbnail.form{
+
+    margin: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+
+
+@media all and (max-width: 425px) {
+    .img-thumbnail.form {
+        margin: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 5%;
+        font-size: smaller;
+    }
+  }
+
